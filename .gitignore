@@ -1,0 +1,19 @@
+# Credentials and runtime data
+.local-api-key
+**/.local-api-key
+.env
+.env.*
+!.env.example
+*.log
+*.pid
+__pycache__/
+*.pyc
+node_modules/
+backups/
+**/backups/
+dist/
+config.json
+setting.json
+secret-key.enc
+secret.key
+Local State

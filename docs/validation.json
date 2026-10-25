@@ -1,0 +1,107 @@
+{
+  "validation-k3.1.json": {
+    "tested_at": "2026-10-25T01:46:07.078939+00:00",
+    "health": {
+      "status": "running",
+      "upstream": "https://relay.mirasim.ai",
+      "version": "0.0.626",
+      "bundleSha256": "7039aeecf82fc72de742ca6e0e92186069e8d69f9952176ccae5087b06d70a10",
+      "defaultModel": "kimi-k3.1-pro"
+    },
+    "models": [
+      "kimi-k3.1-pro",
+      "kimi-code/k3.1-pro",
+      "kimi-code/k3.1",
+      "k3.1",
+      "k3.1-pro",
+      "kimi-code/k3",
+      "kimi-k3",
+      "k3"
+    ],
+    "plain": {
+      "status": 200,
+      "returned_model": "kimi-k3.1-pro",
+      "answer": "MIRA_K31_OK",
+      "seconds": 3.84,
+      "model_omitted": true
+    },
+    "passed": true
+  },
+  "live-tool-validation-k3.1.json": {
+    "tested_at": "2026-10-24T04:38:18.568528+00:00",
+    "real_upstream": "Mira platform",
+    "requested_aliases": [
+      "kimi-k3.1-pro",
+      "kimi-code/k3.1-pro"
+    ],
+    "tools_sent": 25,
+    "tool_name": "Read",
+    "arguments_are_json_string": true,
+    "tool_result_correlated": true,
+    "thinking_history_preserved": true,
+    "first": {
+      "seconds": 9.11,
+      "finish_reason": "tool_calls",
+      "usage": {
+        "prompt_tokens": 19773,
+        "completion_tokens": 163,
+        "total_tokens": 19936,
+        "prompt_tokens_details": {
+          "cached_tokens": 0,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 110
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0
+      },
+      "done": true,
+      "returned_models": [
+        "kimi-k3.1-pro"
+      ]
+    },
+    "second": {
+      "seconds": 7.08,
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 19893,
+        "completion_tokens": 105,
+        "total_tokens": 19998,
+        "prompt_cache_hit_tokens": 19712,
+        "prompt_tokens_details": {
+          "cached_tokens": 19712,
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0
+        },
+        "completion_tokens_details": {
+          "text_tokens": 0,
+          "audio_tokens": 0,
+          "image_tokens": 0,
+          "reasoning_tokens": 84
+        },
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "input_tokens_details": null,
+        "claude_cache_creation_5_m_tokens": 0,
+        "claude_cache_creation_1_h_tokens": 0
+      },
+      "done": true,
+      "returned_models": [
+        "kimi-k3.1-pro"
+      ]
+    },
+    "final_text": "ADAPTER_ROUNDTRIP_OK",
+    "tools_executed_by_proxy": false,
+    "passed": true
+  }
+}
