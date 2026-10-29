@@ -1,6 +1,6 @@
 {
   "name": "mira-kimi-proxy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Windows loopback Mira platform K3.1 Pro proxy with preserved tool protocol",
   "engines": {

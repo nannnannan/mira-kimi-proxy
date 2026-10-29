@@ -12,6 +12,10 @@ const root = selectedVersion ? path.join(require('node:os').homedir(), '.mirasim
 const filename = path.join(root, fs.existsSync(path.join(root, 'server-main.cjs')) ? 'server-main.cjs' : 'server.cjs');
 const source = fs.readFileSync(filename, 'utf8');
 const profiles = {
+  '541a5c3970557a8bc19d533efb0a0fcf8ae4a2232de4ca4ba9fc68f1fdee3b05': {
+    version: '0.0.697', marker: 'vNi(),wSa(),ySa(process["argv"]["slice"](',
+    exports: 'Rrt();P4r();module.exports={sign:WLt,device:ePi,seal:Pwi};',
+  },
   '7039aeecf82fc72de742ca6e0e92186069e8d69f9952176ccae5087b06d70a10': {
     version: '0.0.626', marker: 'N0i(),Wea(),$ea(process["argv"]["slice"](',
     exports: 'FYe();JDr();module.exports={sign:MDt,device:w_i,seal:Rli};',

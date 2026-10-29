@@ -6,7 +6,7 @@ FILES=['.gitignore','README.md','package.json',
  'kimi-api/native-runtime.cjs','kimi-api/proxy.cjs','kimi-api/start.ps1','kimi-api/stop.ps1',
  'kimi-api/runtime-selection.json','kimi-api/verify_k31.py','kimi-api/validate_tools.py',
  'kimi-protocol/tools.json','kimi-protocol/system-prompt.template.txt','kimi-protocol/adapter.py',
- 'docs/完整使用与工具协议.md','docs/validation.json','tests/test_protocol.py','scripts/package.py']
+ 'docs/完整使用与工具协议.md','docs/会话日志导出方法.md','session-log-export/export_session.py','session-log-export/test_export_session.py','docs/validation.json','tests/test_protocol.py','scripts/package.py']
 FORBIDDEN=[r'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----',r'\bgh[pousr]_[A-Za-z0-9]{20,}',r'\bgithub_pat_[A-Za-z0-9_]{20,}',r'\beyJ[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{10,}']
 def main():
     version=json.loads((ROOT/'package.json').read_text())['version']
